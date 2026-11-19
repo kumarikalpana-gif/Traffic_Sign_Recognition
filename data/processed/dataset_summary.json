@@ -1,0 +1,17 @@
+{
+    "dataset": "GTSRB - German Traffic Sign Recognition Benchmark",
+    "dataset_source": "meowmeowmeowmeowmeow/gtsrb-german-traffic-sign",
+    "number_of_classes": 43,
+    "original_training_images": 39209,
+    "original_test_images": 12630,
+    "clean_training_images": 39209,
+    "training_images": 31367,
+    "validation_images": 7842,
+    "test_images": 12630,
+    "random_state": 42,
+    "validation_fraction": 0.2,
+    "missing_training_image_paths": 0,
+    "missing_validation_image_paths": 0,
+    "missing_test_image_paths": 0,
+    "eda_plots_generated": 6
+}

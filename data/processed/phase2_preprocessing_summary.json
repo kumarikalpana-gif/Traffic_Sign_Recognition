@@ -1,0 +1,32 @@
+{
+    "image_size": [
+        64,
+        64,
+        3
+    ],
+    "num_classes": 43,
+    "batch_size": 64,
+    "normalization": "Pixel values scaled to [0, 1]",
+    "augmentation_methods": [
+        "Standard augmentation",
+        "Heavy augmentation"
+    ],
+    "clean_datasets": {
+        "train": 31367,
+        "validation": 7842,
+        "test": 12630
+    },
+    "corrupted_test_datasets": {
+        "gaussian_blur": 12630,
+        "brightness": 12630,
+        "occlusion": 12630,
+        "combined": 12630
+    },
+    "corruption_types": [
+        "gaussian_blur",
+        "brightness",
+        "occlusion",
+        "combined"
+    ],
+    "random_seed": 42
+}
